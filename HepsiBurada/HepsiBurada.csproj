@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Enums\ReaderElements.cs" />
+    <Compile Include="Enums\WritingElements.cs" />
+    <Compile Include="Factory\Creator.cs" />
+    <Compile Include="Helpers\Converters\AlwaysConvert.cs" />
+    <Compile Include="Helpers\ExceptionHelpers\ExceptionHelper.cs" />
+    <Compile Include="Helpers\ExceptionHelpers\MovementException.cs" />
+    <Compile Include="Helpers\String\ReaderHelper.cs" />
+    <Compile Include="Helpers\String\StringHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ReadAndWrite\AreaDimensionsWriter.cs" />
+    <Compile Include="ReadAndWrite\IReader.cs" />
+    <Compile Include="ReadAndWrite\IWriter.cs" />
+    <Compile Include="ReadAndWrite\MovementCommandsWriter.cs" />
+    <Compile Include="ReadAndWrite\PositionInfoWriter.cs" />
+    <Compile Include="ReadAndWrite\Reader.cs" />
+    <Compile Include="ReadAndWrite\StartupWriter.cs" />
+    <Compile Include="RoverActions\Area.cs" />
+    <Compile Include="RoverActions\IAction.cs" />
+    <Compile Include="RoverActions\ICommand.cs" />
+    <Compile Include="RoverActions\ModifyRoversPosition.cs" />
+    <Compile Include="RoverActions\MoveForwardAction.cs" />
+    <Compile Include="RoverActions\NoAction.cs" />
+    <Compile Include="RoverActions\Rover.cs" />
+    <Compile Include="RoverActions\RoverAction.cs" />
+    <Compile Include="RoverActions\RoverCommand.cs" />
+    <Compile Include="RoverActions\TurnLeftAction.cs" />
+    <Compile Include="RoverActions\TurnRightAction.cs" />
+  </ItemGroup>
+
+</Project>
